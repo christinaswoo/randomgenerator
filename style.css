@@ -15,7 +15,7 @@ body {
   background-color: #F5EDDC;
 /*  color: black;*/
   font-family: headerFont;
-  font-size: 2rem;
+  font-size: 2vw;
 }
 
 body * {
@@ -23,7 +23,7 @@ body * {
 }
 
 input, button {
-  font-size: 1.5rem;
+  font-size: 2vw;
   background-color: #F2F2F2;
   border-radius: 5px;
 }
@@ -46,7 +46,7 @@ input, button {
 }
 
 .nameSign {
-  font-size: 5rem;
+  font-size: 6vw;
 }
 
 #outputContainer {
