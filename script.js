@@ -82,7 +82,7 @@ function generateHoroscope() {
   main.classList.add("nameSign");
 
 //ARIES
-  if (currentInputBdayAsNumber >= 321 && currentInputBdayAsNumber <= 419 ) {
+  if ((currentInputBdayAsNumber >= 321 && currentInputBdayAsNumber <= 331) || (currentInputBdayAsNumber >= 401 && currentInputBdayAsNumber <= 419)) {
     restyleBackgroundColor("ariesColor");
     // previousBackgroundColorClass = "ariesColor";
 
@@ -98,7 +98,7 @@ function generateHoroscope() {
   }
 
 //TAURUS
-  else if (currentInputBdayAsNumber >= 420 && currentInputBdayAsNumber <= 520 ) {
+  else if ((currentInputBdayAsNumber >= 420 && currentInputBdayAsNumber <= 430) || (currentInputBdayAsNumber >= 501 && currentInputBdayAsNumber <= 520)) {
     restyleBackgroundColor("taurusColor");
     // previousBackgroundColorClass = "taurusColor";
 
@@ -109,7 +109,7 @@ function generateHoroscope() {
   }
 
 //GEMINI
-  else if (currentInputBdayAsNumber >= 521 && currentInputBdayAsNumber <= 620 ) {
+  else if ((currentInputBdayAsNumber >= 521 && currentInputBdayAsNumber <= 531) || (currentInputBdayAsNumber >= 601 && currentInputBdayAsNumber <= 620 )) {
     restyleBackgroundColor("geminiColor");
     // previousBackgroundColorClass = "geminiColor";
 
@@ -120,7 +120,7 @@ function generateHoroscope() {
   }
 
 //CANCER
-  else if (currentInputBdayAsNumber >= 621 && currentInputBdayAsNumber <= 722 ) {
+  else if ((currentInputBdayAsNumber >= 621 && currentInputBdayAsNumber <= 631) || (currentInputBdayAsNumber >=701 && currentInputBdayAsNumber <= 722)) {
     restyleBackgroundColor("cancerColor");
     // previousBackgroundColorClass = "cancerColor";
 
@@ -131,7 +131,7 @@ function generateHoroscope() {
   }
 
 //LEO
-  else if (currentInputBdayAsNumber >= 723 && currentInputBdayAsNumber <= 822 ) {
+  else if ((currentInputBdayAsNumber >= 723 && currentInputBdayAsNumber <= 731) || ( currentInputBdayAsNumber >= 801 && currentInputBdayAsNumber <= 822 )) {
     restyleBackgroundColor("leoColor");
     // previousBackgroundColorClass = "leoColor";
 
@@ -142,7 +142,7 @@ function generateHoroscope() {
   }
 
 //VIRGO
-  else if (currentInputBdayAsNumber >= 823 && currentInputBdayAsNumber <= 922 ) {
+  else if ((currentInputBdayAsNumber >= 823 && currentInputBdayAsNumber <= 831) || (currentInputBdayAsNumber >=901 && currentInputBdayAsNumber <= 922 )) {
     restyleBackgroundColor("virgoColor");
     // previousBackgroundColorClass = "virgoColor";
 
@@ -153,7 +153,7 @@ function generateHoroscope() {
   }
 
 //LIBRA
-  else if (currentInputBdayAsNumber >= 923 && currentInputBdayAsNumber <= 1022 ) {
+  else if ((currentInputBdayAsNumber >= 923 && currentInputBdayAsNumber <= 930) || (currentInputBdayAsNumber >=1001 && currentInputBdayAsNumber <= 1022 )) {
     restyleBackgroundColor("libraColor");
     // previousBackgroundColorClass = "libraColor";
 
@@ -164,7 +164,7 @@ function generateHoroscope() {
   }
 
 //SCORPIO
-  else if (currentInputBdayAsNumber >= 1023 && currentInputBdayAsNumber <= 1121 ) {
+  else if ((currentInputBdayAsNumber >= 1023 && currentInputBdayAsNumber <= 1031) || (currentInputBdayAsNumber >= 1101 && currentInputBdayAsNumber <= 1121)) {
     restyleBackgroundColor("scorpioColor");
     // previousBackgroundColorClass = "scorpioColor";
 
@@ -175,7 +175,7 @@ function generateHoroscope() {
   }
 
 //SAGITTARIUS
-  else if (currentInputBdayAsNumber >= 1122 && currentInputBdayAsNumber <= 1221 ) {
+  else if ((currentInputBdayAsNumber >= 1122 && currentInputBdayAsNumber <= 1130) || (currentInputBdayAsNumber >= 1201 && currentInputBdayAsNumber <= 1221)) {
     restyleBackgroundColor("sagittariusColor");
     // previousBackgroundColorClass = "sagittariusColor";
 
@@ -186,7 +186,7 @@ function generateHoroscope() {
   }
 
 //CAPRICORN
-  else if ((currentInputBdayAsNumber >= 1222 && currentInputBdayAsNumber <= 1231) || (currentInputBdayAsNumber <= 0119 && currentInputBdayAsNumber >= 0101)) {
+  else if ((currentInputBdayAsNumber >= 1222 && currentInputBdayAsNumber <= 1231) || (currentInputBdayAsNumber <= 119 && currentInputBdayAsNumber >= 101)) {
     restyleBackgroundColor("capricornColor");
     // previousBackgroundColorClass = "capricornColor";
 
@@ -197,7 +197,7 @@ function generateHoroscope() {
   }
 
 //AQUARIUS
-  else if (currentInputBdayAsNumber >= 120 && currentInputBdayAsNumber <= 218 ) {
+  else if ((currentInputBdayAsNumber >= 120 && currentInputBdayAsNumber <= 131) || (currentInputBdayAsNumber >= 201 && currentInputBdayAsNumber <= 218)) {
     restyleBackgroundColor("aquariusColor");
     // previousBackgroundColorClass = "aquariusColor";
 
@@ -208,7 +208,7 @@ function generateHoroscope() {
   }
 
 //PISCES
-  else if (currentInputBdayAsNumber >= 219 && currentInputBdayAsNumber <= 320 ) {
+  else if ((currentInputBdayAsNumber >= 219 && currentInputBdayAsNumber <= 229) || (currentInputBdayAsNumber >= 301 && currentInputBdayAsNumber <= 320)) {
     restyleBackgroundColor("piscesColor");
     // previousBackgroundColorClass = "piscesColor";
 
