@@ -138,7 +138,7 @@ function generateHoroscope() {
     restyleBackgroundColor("cancerColor");
 
     outputSubhead.innerHTML = nameInputText + ", you are a Cancer!";
-    outputParagraph1.innerHTML = "♋︎ Represented by the crab, Cancer seamlessly weaves between the sea and shore representing Cancer’s ability to exist in both emotional and material realms. Cancers are highly intuitive and their psychic abilities manifest in tangible spaces. But—just like the hard-shelled crustaceans—this water sign is willing to do whatever it takes to protect itself emotionally. In order to get to know this sign, you're going to need to establish trust!";
+    outputParagraph1.innerHTML = "♋︎ Represented by the crab, Cancer seamlessly weaves between the sea and shore representing Cancer’s ability to exist in both emotional and material realms. Cancers are highly intuitive and their psychic abilities manifest in tangible spaces. But just like the hard-shelled crustaceans, this water sign is willing to do whatever it takes to protect itself emotionally. In order to get to know this sign, you're going to need to establish trust!";
 
     outputParagraph2.innerHTML = "🔮 " + generateTodaysHoroscope();
   }
