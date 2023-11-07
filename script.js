@@ -108,10 +108,7 @@ function generateHoroscope() {
     // previousBackgroundColorClass = "ariesColor";
 
    	outputSubhead.innerHTML = nameInputText + ", you are an Aries!";
-    outputParagraph1.innerHTML = "♈︎ As the first sign of the zodiac, Aries loves to be number one." +
-    	" Naturally, this dynamic fire sign is no stranger to competition." + 
-    	" Bold and ambitious, Aries dives headfirst into even the most challenging situations—" + 
-    	"and they'll make sure they always come out on top!";
+    outputParagraph1.innerHTML = "♈︎ As the first sign of the zodiac, Aries loves to be number one. Naturally, this dynamic fire sign is no stranger to competition. Bold and ambitious, Aries dives headfirst into even the most challenging situations and they'll make sure they always come out on top!";
 
     outputParagraph2.innerHTML = "🔮 " + generateTodaysHoroscope();
   }
